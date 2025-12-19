@@ -20,17 +20,16 @@
 
 [**MedAIBench**](https://www.medaibench.cn) is an authoritative medical LLM evaluation system developed by the National Artificial Intelligence Medical Industry Pilot Facility. AntAngelMed also **ranks first overall** and demonstrates strong comprehensive professionalism and safety, especially in medical knowledge Q&A and medical ethics/safety.
 
-![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figure%20%7C%20HealthBench-medAIBench.png)
-
+![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Figure%20%7C%20HealthBench-medAIBench.png)
 **Figure | AntAngelMed ranks first among open-source models on HealthBench and first on MedAIBench**
 
 ## **MedBench**
 
 [**MedBench**](https://arxiv.org/abs/2511.14439) is a scientific and rigorous benchmark designed to evaluate LLMs in the Chinese healthcare domain. It comprises 36 independently curated evaluation datasets and covers approximately 700,000 samples. AntAngelMed ranks first on the MedBench self-assessment leaderboard and leads across five core dimensions: medical knowledge question answering, medical language understanding, medical language generation, complex medical reasoning, and safety and ethics, highlighting the model's professionalism, safety, and clinical applicability.
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2025/png/1591/1766130714462-1a4d7350-6255-4bd7-a01b-79fa6f9161ed.png)
-
+![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Figure%20%7C%20AntAngelMed%20ranks%20first%20on%20the%20MedBench%20self-assessment%20leaderboard.png)
 **Figure | AntAngelMed ranks first on the MedBench self-assessment leaderboard.**
+
 
 
 # 🔧 Technical Features
@@ -43,7 +42,7 @@ AntAngelMed employs a carefully designed three-stage training process to deeply 
 + **Supervised Fine-Tuning (SFT):** A multi-source and heterogeneous high-quality instruction dataset is constructed at this stage. General data (math, programming, logic) strengthen core chain-of-thought capabilities of AngAngel, while medical scenarios (doctor–patient Q&A, diagnostic reasoning, safety/ethics) provide deep adaptation for improved clinical performance.
 + **Reinforcement Learning (RL):** Using the [**GRPO**](https://arxiv.org/pdf/2402.03300) algorithm and task-specific reward models, RL precisely shapes model behavior—emphasizing empathy, structural clarity, and safety boundaries, and encouraging evidence-based reasoning on complex cases to reduce hallucinations and improve accuracy.
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2025/jpeg/135556672/1765944098319-b6dc6933-3a6a-4d85-ae97-e9d98c6983c5.jpeg)
+![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Figure%20%7C%20Professional%20three-stage%20training%20pipeline.jpg)
 
 **Figure | Professional three-stage training pipeline**
 
@@ -56,7 +55,7 @@ These refinements enable **small-activation** MoE models to deliver up to **7× 
 + On H20 hardware, inference exceeds **200 tokens/s**—about **3× faster** than a 36B dense model.
 + With **YaRN extrapolation**, it supports a **128K context length**; as output length grows, relative speedups can reach 7× or more.
 
-![Figure | Model Architecture Diagram (https://huggingface.co/inclusionAI/Ling-flash-2.0)](https://intranetproxy.alipay.com/skylark/lark/0/2025/png/1591/1764724109582-56e0ca94-e8fd-4f49-a233-f9afe9e12801.png)
+![Figure | Model Architecture Diagram (https://huggingface.co/inclusionAI/Ling-flash-2.0)](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Figure%20%7C%20Model%20Architecture%20Diagram.png)
 
 We have also specifically optimized AntAngelMed for inference acceleration by employing **FP8 quantization combined with EAGLE3 optimization**. Under a concurrency of 32, this approach significantly boosts inference throughput compared to using FP8 alone, with improvements of **71% on HumanEval, 45% on GSM8K**, and **as high as 94% on Math-500**. This achieves a robust balance between inference performance and model stability.
 
