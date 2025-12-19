@@ -1,6 +1,6 @@
 # Introduction
 
-**AntAngelMed is Officially Open Source! 🚀 **
+**AntAngelMed is Officially Open Source! 🚀**
 
 **AntAngelMed**, developed by **Ant Group** and the **Health Commission of Zhejiang Province**, is the largest and most powerful open-source medical language model to date.
 
