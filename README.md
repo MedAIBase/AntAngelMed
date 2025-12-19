@@ -20,7 +20,7 @@
 
 [**MedAIBench**](https://www.medaibench.cn) is an authoritative medical LLM evaluation system developed by the National Artificial Intelligence Medical Industry Pilot Facility. AntAngelMed also **ranks first overall** and demonstrates strong comprehensive professionalism and safety, especially in medical knowledge Q&A and medical ethics/safety.
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2025/png/135556672/1765855632812-4659290c-8f89-4378-aa40-1df0fcbd6e78.png)
+![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figure%20%7C%20HealthBench-medAIBench.png)
 
 **Figure | AntAngelMed ranks first among open-source models on HealthBench and first on MedAIBench**
 
