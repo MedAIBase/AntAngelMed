@@ -11,7 +11,7 @@ Github: https://github.com/MedAIBase/AntAngelMed
 
 **AntAngelMed is Officially Open Source! 🚀**
 
-**AntAngelMed**, jointly developed by the **Health Information Center of Zhejiang Province, Ant Health, and Zhejiang Anzhen'er Medical AI Technology Co., Ltd.,** is the largest and most powerful open-source medical language model to date.
+**AntAngelMed**, jointly developed by the **Health Information Center of Zhejiang Province, Ant Health, and Zhejiang Anzhen'er Medical Artificial Intelligence Technology Co., Ltd.,** is the largest and most powerful open-source medical language model to date.
 
 # Core Highlights
 
