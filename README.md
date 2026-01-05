@@ -1,3 +1,4 @@
+# 
 **English | [中文](https://modelscope.cn/models/MedAIBase/AntAngelMed/file/view/master/README_zh-CN.md?status=1) | 🤗 [Hugging Face](https://huggingface.co/MedAIBase/AntAngelMed) | 🤖 [ModelScope](https://modelscope.cn/models/MedAIBase/AntAngelMed) | [🐙](https://github.com/MiniMax-AI/MiniMax-M2.1) [Github](https://github.com/MedAIBase/AntAngelMed)**
 
 **HuggingFace：**[https://huggingface.co/MedAIBase/AntAngelMed](https://huggingface.co/MedAIBase/AntAngelMed)
@@ -7,7 +8,7 @@
 **Github:**[ https://github.com/MedAIBase/AntAngelMed/tree/main](https://github.com/MedAIBase/AntAngelMed/tree/main)
 
 
-
+#   
 **Quantized version：🤗 [Hugging Face](https://huggingface.co/MedAIBase/AntAngelMed-FP8) | 🤖 [ModelScope](https://modelscope.cn/models/MedAIBase/AntAngelMed-FP8)**
 
 **HuggingFace：**[https://huggingface.co/MedAIBase/AntAngelMed-FP8](https://huggingface.co/MedAIBase/AntAngelMed-FP8)
@@ -16,7 +17,7 @@
 
 
 
-
+# 
 # Introduction
 
 **AntAngelMed is Officially Open Source! 🚀**
@@ -35,7 +36,7 @@
 
 [**HealthBench**](https://arxiv.org/abs/2505.08775) is an open-source medical evaluation benchmark released by OpenAI, designed to assess the performance of Large Language Models (LLMs) in real-world medical environments through highly simulated multi-turn dialogues. AntAngelMed achieved outstanding performance on this benchmark, ranking first among all open-source models, with a particularly significant advantage on the challenging HealthBench-Hard subset.
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2026/png/135556672/1767580967360-839e73a3-38b7-41d2-92e2-eb27b18774c1.png)
+![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Fig1%20%7C%20AntAngelMed%20ranks%20first%20among%20open-source%20models%20on%20HealthBench.png)
 
 **Figure | AntAngelMed ranks first among open-source models on HealthBench**
 
@@ -43,7 +44,7 @@
 
 [**MedAIBench**](https://www.medaibench.cn) is an authoritative medical LLM evaluation system developed by the National Artificial Intelligence Medical Industry Pilot Facility. AntAngelMed also **ranks among the top level** and demonstrates strong comprehensive professionalism and safety, especially in medical knowledge Q&A and medical ethics/safety.
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2026/png/135556672/1767580982655-7df19b89-f24f-4fae-8f31-e8637c10f836.png)
+![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Fig2%20%7C%20AntAngelMed%20ranks%20among%20the%20top%20level%20on%20MedAIBench.png)
 
 **Figure | AntAngelMed ranks among the top level on MedAIBench**
 
@@ -51,7 +52,7 @@
 
 [**MedBench**](https://arxiv.org/abs/2511.14439) is a scientific and rigorous benchmark designed to evaluate LLMs in the Chinese healthcare domain. It comprises 36 independently curated evaluation datasets and covers approximately 700,000 samples. AntAngelMed ranks first on the MedBench leaderboard and leads across five core dimensions: medical knowledge question answering, medical language understanding, medical language generation, complex medical reasoning, and safety and ethics, highlighting the model's professionalism, safety, and clinical applicability.
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2026/png/135556672/1767582931009-f1f250d1-0d2f-4307-b16a-d10faeb3a866.png)
+![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Fig3%20%7C%20AntAngelMed%20ranks%20first%20on%20the%20MedBench%20leaderboard..png)
 
 **Figure | AntAngelMed ranks first on the MedBench leaderboard.**
 
