@@ -1,9 +1,19 @@
+**English | [中文](https://modelscope.cn/models/MedAIBase/AntAngelMed/file/view/master/README_zh-CN.md?status=1) | 🤗 [Hugging Face](https://huggingface.co/MedAIBase/AntAngelMed) | 🤖 [ModelScope](https://modelscope.cn/models/MedAIBase/AntAngelMed) | [🐙](https://github.com/MiniMax-AI/MiniMax-M2.1) [Github](https://github.com/MedAIBase/AntAngelMed)**
 
-HuggingFace：https://huggingface.co/MedAIBase/AntAngelMed
+**HuggingFace：**[https://huggingface.co/MedAIBase/AntAngelMed](https://huggingface.co/MedAIBase/AntAngelMed)
 
-ModelScope：https://modelscope.cn/models/MedAIBase/AntAngelMed
+**ModelScope：**[https://modelscope.cn/models/MedAIBase/AntAngelMed](https://modelscope.cn/models/MedAIBase/AntAngelMed)
 
-Github: https://github.com/MedAIBase/AntAngelMed
+**Github:**[ https://github.com/MedAIBase/AntAngelMed/tree/main](https://github.com/MedAIBase/AntAngelMed/tree/main)
+
+
+
+**Quantized version：🤗 [Hugging Face](https://huggingface.co/MedAIBase/AntAngelMed-FP8) | 🤖 [ModelScope](https://modelscope.cn/models/MedAIBase/AntAngelMed-FP8)**
+
+**HuggingFace：**[https://huggingface.co/MedAIBase/AntAngelMed-FP8](https://huggingface.co/MedAIBase/AntAngelMed-FP8)
+
+**ModelScope：**[https://modelscope.cn/models/MedAIBase/AntAngelMed-FP8](https://modelscope.cn/models/MedAIBase/AntAngelMed-FP8)
+
 
 
 
@@ -11,7 +21,7 @@ Github: https://github.com/MedAIBase/AntAngelMed
 
 **AntAngelMed is Officially Open Source! 🚀**
 
-**AntAngelMed**, jointly developed by the **Health Information Center of Zhejiang Province, Ant Health, and Zhejiang Anzhen'er Medical Artificial Intelligence Technology Co., Ltd.,** is the largest and most powerful open-source medical language model to date.
+**AntAngelMed**, jointly developed by the **Health Information Center of Zhejiang Province, Ant Health, and Zhejiang Anzhen'er Medical Artificial Intelligence Technology Co., Ltd.(浙江省安诊儿医学人工智能科技有限公司),** is the largest and most powerful open-source medical language model to date.
 
 # Core Highlights
 
@@ -25,12 +35,17 @@ Github: https://github.com/MedAIBase/AntAngelMed
 
 [**HealthBench**](https://arxiv.org/abs/2505.08775) is an open-source medical evaluation benchmark released by OpenAI, designed to assess the performance of Large Language Models (LLMs) in real-world medical environments through highly simulated multi-turn dialogues. AntAngelMed achieved outstanding performance on this benchmark, ranking first among all open-source models, with a particularly significant advantage on the challenging HealthBench-Hard subset.
 
+![](https://intranetproxy.alipay.com/skylark/lark/0/2026/png/135556672/1767580967360-839e73a3-38b7-41d2-92e2-eb27b18774c1.png)
+
+**Figure | AntAngelMed ranks first among open-source models on HealthBench**
+
 ## **MedAIBench**
 
-[**MedAIBench**](https://www.medaibench.cn) is an authoritative medical LLM evaluation system developed by the National Artificial Intelligence Medical Industry Pilot Facility. AntAngelMed also **ranks first overall** and demonstrates strong comprehensive professionalism and safety, especially in medical knowledge Q&A and medical ethics/safety.
+[**MedAIBench**](https://www.medaibench.cn) is an authoritative medical LLM evaluation system developed by the National Artificial Intelligence Medical Industry Pilot Facility. AntAngelMed also **ranks among the top level** and demonstrates strong comprehensive professionalism and safety, especially in medical knowledge Q&A and medical ethics/safety.
 
-![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Figure%20%7C%20HealthBench-medAIBench.png)
-**Figure | AntAngelMed ranks first among open-source models on HealthBench and first on MedAIBench**
+![](https://intranetproxy.alipay.com/skylark/lark/0/2026/png/135556672/1767580982655-7df19b89-f24f-4fae-8f31-e8637c10f836.png)
+
+**Figure | AntAngelMed ranks among the top level on MedAIBench**
 
 ## **MedBench**
 
