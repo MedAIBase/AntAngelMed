@@ -49,10 +49,11 @@
 
 ## **MedBench**
 
-[**MedBench**](https://arxiv.org/abs/2511.14439) is a scientific and rigorous benchmark designed to evaluate LLMs in the Chinese healthcare domain. It comprises 36 independently curated evaluation datasets and covers approximately 700,000 samples. AntAngelMed ranks first on the MedBench self-assessment leaderboard and leads across five core dimensions: medical knowledge question answering, medical language understanding, medical language generation, complex medical reasoning, and safety and ethics, highlighting the model's professionalism, safety, and clinical applicability.
+[**MedBench**](https://arxiv.org/abs/2511.14439) is a scientific and rigorous benchmark designed to evaluate LLMs in the Chinese healthcare domain. It comprises 36 independently curated evaluation datasets and covers approximately 700,000 samples. AntAngelMed ranks first on the MedBench leaderboard and leads across five core dimensions: medical knowledge question answering, medical language understanding, medical language generation, complex medical reasoning, and safety and ethics, highlighting the model's professionalism, safety, and clinical applicability.
 
-![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Figure%20%7C%20AntAngelMed%20ranks%20first%20on%20the%20MedBench%20self-assessment%20leaderboard.png)
-**Figure | AntAngelMed ranks first on the MedBench self-assessment leaderboard.**
+![](https://intranetproxy.alipay.com/skylark/lark/0/2026/png/135556672/1767582931009-f1f250d1-0d2f-4307-b16a-d10faeb3a866.png)
+
+**Figure | AntAngelMed ranks first on the MedBench leaderboard.**
 
 
 
