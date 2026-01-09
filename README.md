@@ -5,7 +5,7 @@
 
 **ModelScope：**[https://modelscope.cn/models/MedAIBase/AntAngelMed](https://modelscope.cn/models/MedAIBase/AntAngelMed)
 
-**Github:**[ https://github.com/MedAIBase/AntAngelMed/tree/main](https://github.com/MedAIBase/AntAngelMed/tree/main)
+**Github:**[ https://github.com/MedAIBase/AntAngelMed](https://github.com/MedAIBase/AntAngelMed)
 
 
 #   
@@ -359,3 +359,9 @@ For detailed guidance, please refer to the vLLM-Ascend [here](https://docs.vllm.
 # License
 
 This code repository is licensed under [the MIT License](https://github.com/inclusionAI/Ling-V2/blob/master/LICENCE).
+
+# Welcome to the WeChat group of AntAngelMed
+
+| <center>![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Welcome_to_the_wechat_group_of_AntAngelMed.png)</center> |
+|---|
+| **<center>Figure \| WeChat group</center>** |
