@@ -46,7 +46,7 @@
 
 ![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Fig2%20%7C%20AntAngelMed%20ranks%20among%20the%20top%20level%20on%20MedAIBench.png)
 
-**Figure | AntAngelMed ranks among the top level on MedAIBench**
+**<center>Figure | AntAngelMed ranks among the top level on MedAIBench</center>**
 
 ## **MedBench**
 
