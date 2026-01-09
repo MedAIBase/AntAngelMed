@@ -22,13 +22,13 @@
 
 **AntAngelMed is Officially Open Source! 🚀**
 
-**AntAngelMed**, jointly developed by the **Health Information Center of Zhejiang Province, Ant Health, and Zhejiang Anzhen'er Medical Artificial Intelligence Technology Co., Ltd.(浙江省安诊儿医学人工智能科技有限公司),** is the largest and most powerful open-source medical language model to date.
+**AntAngelMed**, jointly developed by the **Health Information Center of Zhejiang Province, Ant Healthcare, and Zhejiang Anzhen'er Medical Artificial Intelligence Technology Co., Ltd.(浙江省安诊儿医学人工智能科技有限公司),** is the largest and most powerful open-source medical language model to date.
 
 # Core Highlights
 
-+ 🏆**World-leading performance on authoritative benchmarks**: AntAngelMed surpasses all open-source models and a range of top proprietary models on OpenAI's HealthBench, and ranks first overall on the Chinese authority benchmark MedAIBench.
++ 🏆**World-leading Performance on Authoritative Benchmarks**: AntAngelMed surpasses all open-source models and a range of top proprietary models on OpenAI's HealthBench, and ranks first overall on the Chinese authority benchmark MedAIBench.
 + 🧠**Advanced Medical Capabilities**: AntAngelMed achieves its professional medical capabilities through a rigorous three-stage training pipeline: continual pre-training on medical corpora, supervised fine-tuning with high-quality instructions, and GRPO-based reinforcement learning. This process equips the model with deep medical knowledge, sophisticated diagnostic reasoning, and robust adherence to safety and ethics.
-+ ⚡**Extremely efficient inference:** Leveraging [Ling-flash-2.0](https://arxiv.org/abs/2507.17702)’s high-efficiency MoE, AntAngelMed matches the performance of ~40B dense models while activating only 6.1B parameters of its 100B parameters. It achieves over 200 tokens/s on H20 hardware and supports 128K context length.
++ ⚡**Extremely Efficient Inference:** Leveraging [Ling-flash-2.0](https://arxiv.org/abs/2507.17702)’s high-efficiency MoE, AntAngelMed matches the performance of ~40B dense models while activating only 6.1B parameters of its 100B parameters. It achieves over 200 tokens/s on H20 hardware and supports 128K context length.
 
 # **📊** Benchmark Results
 
@@ -65,7 +65,7 @@
 AntAngelMed employs a carefully designed three-stage training process to deeply integrate general capabilities with medical expertise:
 
 + **Continual Pre-Training:** Based on Ling-flash-2.0, AntAngelMed is continually pre-trained with large-scale, high-quality medical corpora (encyclopedias, web text, academic publications), injecting profound domain and world knowledge.
-+ **Supervised Fine-Tuning (SFT):** A multi-source and heterogeneous high-quality instruction dataset is constructed at this stage. General data (math, programming, logic) strengthen core chain-of-thought capabilities of AngAngel, while medical scenarios (doctor–patient Q&A, diagnostic reasoning, safety/ethics) provide deep adaptation for improved clinical performance.
++ **Supervised Fine-Tuning (SFT):** A multi-source and heterogeneous high-quality instruction dataset is constructed at this stage. General data (math, programming, logic) strengthen core chain-of-thought capabilities of AngAngelMed, while medical scenarios (doctor–patient Q&A, diagnostic reasoning, safety/ethics) provide deep adaptation for improved clinical performance.
 + **Reinforcement Learning (RL):** Using the [**GRPO**](https://arxiv.org/pdf/2402.03300) algorithm and task-specific reward models, RL precisely shapes model behavior—emphasizing empathy, structural clarity, and safety boundaries, and encouraging evidence-based reasoning on complex cases to reduce hallucinations and improve accuracy.
 
 ![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Figure%20%7C%20Professional%20three-stage%20training%20pipeline.jpg)
@@ -104,7 +104,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 prompt = "What should I do if I have a headache?"
 messages = [
-    {"role": "system", "content": "You are AntAngelMed, a helpfull medical assistant."},
+    {"role": "system", "content": "You are AntAngelMed, a helpful medical assistant."},
     {"role": "user", "content": prompt}
 ]
 text = tokenizer.apply_chat_template(
