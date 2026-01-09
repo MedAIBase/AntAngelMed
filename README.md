@@ -36,27 +36,26 @@
 
 [**HealthBench**](https://arxiv.org/abs/2505.08775) is an open-source medical evaluation benchmark released by OpenAI, designed to assess the performance of Large Language Models (LLMs) in real-world medical environments through highly simulated multi-turn dialogues. AntAngelMed achieved outstanding performance on this benchmark, ranking first among all open-source models, with a particularly significant advantage on the challenging HealthBench-Hard subset.
 
-![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Fig1%20%7C%20AntAngelMed%20ranks%20first%20among%20open-source%20models%20on%20HealthBench.png)
-
-**Figure | AntAngelMed ranks first among open-source models on HealthBench**
+| <center>![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Fig1%20%7C%20AntAngelMed%20ranks%20first%20among%20open-source%20models%20on%20HealthBench.png)</center> |
+|---|
+| **<center>Figure \| AntAngelMed ranks first among open-source models on HealthBench</center>** |
 
 ## **MedAIBench**
 
 [**MedAIBench**](https://www.medaibench.cn) is an authoritative medical LLM evaluation system developed by the National Artificial Intelligence Medical Industry Pilot Facility. AntAngelMed also **ranks among the top level** and demonstrates strong comprehensive professionalism and safety, especially in medical knowledge Q&A and medical ethics/safety.
 
-![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Fig2%20%7C%20AntAngelMed%20ranks%20among%20the%20top%20level%20on%20MedAIBench.png)
+| <center>![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Fig2%20%7C%20AntAngelMed%20ranks%20among%20the%20top%20level%20on%20MedAIBench.png)</center> |
+|---|
+| **<center>Figure \| AntAngelMed ranks among the top level on MedAIBench</center>** |
 
-**<center>Figure | AntAngelMed ranks among the top level on MedAIBench</center>**
 
 ## **MedBench**
 
 [**MedBench**](https://arxiv.org/abs/2511.14439) is a scientific and rigorous benchmark designed to evaluate LLMs in the Chinese healthcare domain. It comprises 36 independently curated evaluation datasets and covers approximately 700,000 samples. AntAngelMed ranks first on the MedBench leaderboard and leads across five core dimensions: medical knowledge question answering, medical language understanding, medical language generation, complex medical reasoning, and safety and ethics, highlighting the model's professionalism, safety, and clinical applicability.
 
-![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Fig3%20%7C%20AntAngelMed%20ranks%20first%20on%20the%20MedBench%20leaderboard..png)
-
-**Figure | AntAngelMed ranks first on the MedBench leaderboard.**
-
-
+| <center>![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Fig3%20%7C%20AntAngelMed%20ranks%20first%20on%20the%20MedBench%20leaderboard..png)</center> |
+|---|
+| **<center>Figure \| AntAngelMed ranks first on the MedBench leaderboard</center>** |
 
 # 🔧 Technical Features
 
@@ -68,9 +67,11 @@ AntAngelMed employs a carefully designed three-stage training process to deeply 
 + **Supervised Fine-Tuning (SFT):** A multi-source and heterogeneous high-quality instruction dataset is constructed at this stage. General data (math, programming, logic) strengthen core chain-of-thought capabilities of AngAngelMed, while medical scenarios (doctor–patient Q&A, diagnostic reasoning, safety/ethics) provide deep adaptation for improved clinical performance.
 + **Reinforcement Learning (RL):** Using the [**GRPO**](https://arxiv.org/pdf/2402.03300) algorithm and task-specific reward models, RL precisely shapes model behavior—emphasizing empathy, structural clarity, and safety boundaries, and encouraging evidence-based reasoning on complex cases to reduce hallucinations and improve accuracy.
 
-![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Figure%20%7C%20Professional%20three-stage%20training%20pipeline.jpg)
 
-**Figure | Professional three-stage training pipeline**
+| <center>![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Figure%20%7C%20Professional%20three-stage%20training%20pipeline.jpg)</center> |
+|---|
+| **<center>Figure \| Professional three-stage training pipeline</center>** |
+
 
 ## Efficient MoE architecture with high-speed inference
 
