@@ -375,7 +375,6 @@ This code repository is licensed under [the MIT License](https://github.com/incl
 
 # Welcome to the WeChat group of AntAngelMed
 
-| <center>![](https://intranetproxy.alipay.com/skylark/lark/0/2026/png/135556672/1768792306023-924d0d9a-fd8f-4380-8035-300077bc2093.png)</center> |
-|---|
-| **<center>Figure \| WeChat group</center>** |
+![img](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Welcome_to_the_wechat_group_of_AntAngelMed.png)
 
+**Figure | WeChat group**
