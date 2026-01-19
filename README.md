@@ -360,8 +360,22 @@ For detailed guidance, please refer to the vLLM-Ascend [here](https://docs.vllm.
 
 This code repository is licensed under [the MIT License](https://github.com/inclusionAI/Ling-V2/blob/master/LICENCE).
 
+
+# 📚 Citation
+
+```bibtex
+@misc{AntAngelMed,
+    title={AntAngelMed: A High-Performance Medical Language Model with Efficient MoE-Powered Clinical Reasoning},
+    author={AntAngelMed Team},
+    year={2025},
+    url={https://huggingface.co/MedAIBase/AntAngelMed},
+}
+```
+
+
 # Welcome to the WeChat group of AntAngelMed
 
-| <center>![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Welcome_to_the_wechat_group_of_AntAngelMed.png)</center> |
+| <center>![](https://intranetproxy.alipay.com/skylark/lark/0/2026/png/135556672/1768792306023-924d0d9a-fd8f-4380-8035-300077bc2093.png)</center> |
 |---|
 | **<center>Figure \| WeChat group</center>** |
+
