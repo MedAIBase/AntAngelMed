@@ -1,7 +1,7 @@
 
 # 
 
-Welcome to try out the model using the API below (欢迎使用下面API链接体验模型): https://antangelmed.tbox.cn/
+**Feel free to try out the model using the API below (欢迎使用下面API链接体验模型): https://antangelmed.tbox.cn/**
 
 # 
 **English | [中文](https://modelscope.cn/models/MedAIBase/AntAngelMed/file/view/master/README_zh-CN.md?status=1) | 🤗 [Hugging Face](https://huggingface.co/MedAIBase/AntAngelMed) | 🤖 [ModelScope](https://modelscope.cn/models/MedAIBase/AntAngelMed) | [🐙](https://github.com/MiniMax-AI/MiniMax-M2.1) [Github](https://github.com/MedAIBase/AntAngelMed)**
