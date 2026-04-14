@@ -1,4 +1,4 @@
-<img width="1640" height="1136" alt="image" src="https://github.com/user-attachments/assets/02d4c430-ec11-4e80-886d-8c605bdeba5c" />
+
 # 
 
 **Feel free to try out the model using the API below (欢迎使用下面API链接体验模型): https://antangelmed.tbox.cn/**
