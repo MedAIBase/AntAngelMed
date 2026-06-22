@@ -39,11 +39,11 @@
 
 ## **HealthBench**
 
-[**HealthBench**](https://arxiv.org/abs/2505.08775) is an open-source medical evaluation benchmark released by OpenAI, designed to assess the performance of Large Language Models (LLMs) in real-world medical environments through highly simulated multi-turn dialogues. AntAngelMed achieved outstanding performance on this benchmark, ranking first among all open-source models, with a particularly significant advantage on the challenging HealthBench-Hard subset.
+[**HealthBench**](https://arxiv.org/abs/2505.08775) is an open-source medical evaluation benchmark released by OpenAI, designed to assess the performance of Large Language Models (LLMs) in real-world medical environments through highly simulated multi-turn dialogues. AntAngelMed achieved outstanding performance on this benchmark, ranking first among all evaluated models, with a particularly significant advantage on the challenging HealthBench-Hard subset.
 
-| <center>![](https://github.com/MedAIBase/AntAngelMed/blob/main/Figures/Fig1%20%7C%20AntAngelMed%20ranks%20first%20among%20open-source%20models%20on%20HealthBench.png)</center> |
+| <center>![](https://raw.githubusercontent.com/lishuang70345/AntAngelMed/refs/heads/main/Figures/Fig1%20%7C%20AntAngelMed%20ranks%20first%20among%20open-source%20models%20on%20HealthBench.png)</center> |
 |---|
-| **<center>Figure \| AntAngelMed ranks first among open-source models on HealthBench</center>** |
+| **<center>Figure \| AntAngelMed ranks first among all evaluated models on HealthBench</center>** |
 
 ## **MedAIBench**
 
